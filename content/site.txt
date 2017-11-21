@@ -1,9 +1,9 @@
-Title: Kirby Boilerplate
+Title: Aeroplate
 
 ----
 
-Description: Kirby CMS Boilerplate put together by Pedro Borges.
+Description: Aeroplate is a stand alone review platform specifically built to review food while flying anywhere in the world.
 
 ----
 
-Copyright: © (date: Year) Kirby Boilerplate.
+Copyright: © (date: Year) Aeroplate.
