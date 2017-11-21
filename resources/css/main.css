@@ -92,3 +92,11 @@ html {
   * @import "utilities/backgrond-patterns";
   * @import "utilities/skew-transforms";
   */
+
+.bg-brand{
+    background: linear-gradient(180deg, #2A3BC8, #2A3B81) no-repeat;
+}
+
+.pin-t-100 {
+    top: 100%;
+}
