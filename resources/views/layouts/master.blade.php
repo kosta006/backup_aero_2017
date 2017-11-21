@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="min-h-full">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,7 @@
     <script>window.lazySizesConfig = window.lazySizesConfig || {};</script>
     <script src="{{ asset('assets/js/lazysizes.min.js') }}" async></script>
 </head>
-<body class="max-w-md mx-auto p-4 font-sans text-darkest bg-lightest-grey">
+<body class="w-full h-full px-8 font-sans text-white bg-brand">
     <a href="#main" class="clip">skip to content</a>
 
     <header class="" role="banner">
@@ -22,19 +22,25 @@
                 {{ svg('logo') }}
             </a>
 
-        @include('partials.menu')
+            <button class="js-menu-btn flex items-center px-6 text-white">
+                <span class="js-menu-btn--open w-8">{{ svg('menu') }}</span>
+                <span class="js-menu-btn--close hidden w-8">{{ svg('close') }}</span>
+            </button>
+
+            <div class="js-menu-items absolute pin-t-100 pin-x hidden">
+                @include('partials.menu')
+            </div>
+        </div>
+
     </header>
 
-    <main id="main" class="content" role="main">
-        <h1>@yield('title')</h1>
+    @yield('content')
 
-        @yield('content')
-    </main>
-
-    <footer role="contentinfo">
+    <footer class="-mx-8 -mt-1 p-4 text-grey text-center font-light bg-black" role="contentinfo">
         {{ $site->copyright()->kirbytext() }}
     </footer>
 
     {!! snippet('google-analytics', null, true) !!}
+    <script src="{{ asset('assets/js/main.js') }}" async></script>
 </body>
 </html>

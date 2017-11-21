@@ -3,5 +3,9 @@
 @section('title', $page->title())
 
 @section('content')
-    {{ $page->text()->kirbytext() }}
+    <main id="main" class="content" role="main">
+        <h1>{{ $page->title() }}</h1>
+
+        {{ $page->text()->kirbytext() }}
+    </main>
 @endsection
