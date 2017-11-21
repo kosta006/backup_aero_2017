@@ -16,10 +16,11 @@
 <body class="max-w-md mx-auto p-4 font-sans text-darkest bg-lightest-grey">
     <a href="#main" class="clip">skip to content</a>
 
-    <header role="banner">
-        <a href="<?= $site->url() ?>" class="link" title="<?= $site->title()->html() ?>">
-            <img src="{{ url('assets/images/logo.svg') }}" alt="<?= $site->title()->html() ?>">
-        </a>
+    <header class="" role="banner">
+        <div class="relative flex flex-wrap justify-between">
+            <a href="<?= $site->url() ?>" class="w-48 p-4 pl-6 text-white no-underline" title="<?= $site->title()->html() ?>">
+                {{ svg('logo') }}
+            </a>
 
         @include('partials.menu')
     </header>
