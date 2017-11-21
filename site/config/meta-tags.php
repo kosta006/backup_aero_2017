@@ -30,7 +30,8 @@ c::set('meta-tags.default', function(Page $page, Site $site) {
                 ['href' => url('assets/images/icons/apple-touch-icon-180.png'), 'sizes' => '180x180', 'type' =>'image/png'],
             ],
             'stylesheet' => [
-                ['href' => asset('assets/css/main.css')]
+                ['href' => asset('assets/css/main.css')],
+                ['href' => '//fonts.googleapis.com/css?family=Montserrat:100,300,400']
             ],
         ],
         'og' => [
