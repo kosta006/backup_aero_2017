@@ -24,17 +24,17 @@
   */
 
 html {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 .link {
-  @apply .text-blue .no-underline;
+    @apply .text-blue .no-underline;
 }
 
 .link:hover,
 .link:focus,
 .link:active {
-  @apply .border-b-2 .border-blue;
+    @apply .border-b-2 .border-blue;
 }
 
 .content h1,
@@ -48,28 +48,28 @@ html {
 .content ol,
 .content figure,
 .content pre {
-  line-height: inherit;
-  @apply .mb-4;
+    line-height: inherit;
+    @apply .mb-4;
 }
 
 .clip {
-  position: fixed !important;
-  clip: rect(1px 1px 1px 1px);
+    position: fixed !important;
+    clip: rect(1px 1px 1px 1px);
 }
 
 .lazyload,
 .lazyloading {
-  opacity: 0;
+    opacity: 0;
 }
 
 .lazyloaded {
-  opacity: 1;
-  transition: opacity .3s;
+    opacity: 1;
+    transition: opacity .3s;
 }
 
 .uniform__potty {
-  position: absolute;
-  left: -9999px;
+    position: absolute;
+    left: -9999px;
 }
 
  /**
