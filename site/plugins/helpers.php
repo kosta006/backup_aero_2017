@@ -1,8 +1,13 @@
 <?php
 
 function svg(string $name, int $size = null): string {
-    $svg = f::read(kirby()->roots()->assets()."/images/{$name}.svg");
+    $file = kirby()->roots()->assets().DS.'images'.DS.$name.'.svg';
 
+    if (! file_exists($file)) {
+        throw new Exception('The "'.$path.'" file does not exist.');
+    }
+
+    $svg = F::read($file);
 
     if ($size) {
         return "<span class=\"w-{$size} h-{$size}\">{$svg}</span>";
