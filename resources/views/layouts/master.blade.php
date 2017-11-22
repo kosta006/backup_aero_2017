@@ -18,17 +18,17 @@
         <a href="#main" class="clip">skip to content</a>
 
         <header class="" role="banner">
-            <div class="relative flex flex-wrap justify-between">
-                <a href="<?= $site->url() ?>" class="w-48 p-4 pl-6 {{ r($page->isHomePage(), 'text-white', 'text-black') }} no-underline" title="<?= $site->title()->html() ?>">
+            <div class="relative md:static flex flex-wrap justify-between">
+                <a href="<?= $site->url() ?>" class="w-48 py-8 pl-5 {{ r($page->isHomePage(), 'text-white', 'text-black') }} no-underline" title="<?= $site->title()->html() ?>">
                     {{ svg('logo') }}
                 </a>
 
-                <button class="js-menu-btn flex items-center px-6 {{ r($page->isHomePage(), 'text-white', 'text-black') }} no-focus" data-text="{{ r($page->isHomePage(), 'text-white', 'text-black') }}" data-active-text="{{ r($page->isHomePage(), 'text-blue', 'text-white') }}" data-active-background="{{ r($page->isHomePage(), 'bg-white', 'bg-black') }}">
+                <button class="js-menu-btn md:hidden flex items-center px-8 {{ r($page->isHomePage(), 'text-white', 'text-black') }} no-focus" data-text="{{ r($page->isHomePage(), 'text-white', 'text-black') }}" data-active-text="{{ r($page->isHomePage(), 'text-blue', 'text-white') }}" data-active-background="{{ r($page->isHomePage(), 'bg-white', 'bg-black') }}">
                     <span class="js-menu-btn--open w-8">{{ svg('menu') }}</span>
                     <span class="js-menu-btn--close hidden w-8">{{ svg('close') }}</span>
                 </button>
 
-                <div class="js-menu-items absolute pin-t-100 pin-x hidden">
+                <div class="js-menu-items absolute md:fixed pin-t-100 pin-x md:pin-t-reset md:pin-b hidden md:block w-full p-4 {{ r($page->isHomePage(), 'bg-white', 'bg-black') }} md:bg-black {{ r(! $page->isHomePage(), 'md:shadow-lg') }}">
                     @include('partials.menu')
                 </div>
             </div>

@@ -5,7 +5,7 @@
         <h1 class="text-5xl font-hairline uppercase">Have you say on <strong class="block font-light">Airline Food</strong></h1>
     </main>
 
-    <section class="flex flex-wrap my-4 px-4">
+    <section class="flex flex-wrap justify-between my-4 px-4">
         <a href="#" class="inline-flex pr-1 w-1/2">
             <img src="{{ url('assets/images/android.svg') }}" alt="">
         </a>
@@ -15,7 +15,7 @@
         <p class="w-full mt-4 text-grey text-lg font-light">Get the app today. It's free!</p>
     </section>
 
-    <section class="p-0">
+    <section class="">
         <img src="{{ url('assets/images/phones.png') }}" alt="" class="block">
     </section>
 @endsection
