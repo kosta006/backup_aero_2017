@@ -6,13 +6,18 @@
     <link href="//fonts.googleapis.com" rel="dns-prefetch">
     <link href="//fonts.gstatic.com" rel="dns-prefetch">
     <link href="{{ asset('assets/css/main.css') }}" rel="preload" as="style">
-    {{--  <link href="{{ asset('assets/js/lazysizes.min.js') }}" rel="preload" as="script">  --}}
+<<<<<<< HEAD
+    <link href="{{ asset('assets/js/lazysizes.min.js') }}" rel="preload" as="script">
+=======
+    <link href="{{ asset('assets/js/lazysizes.js') }}" rel="preload" as="script">
+    <link href="{{ asset('assets/js/main.js') }}" rel="preload" as="script">
+>>>>>>> 396fae2... Add lazysizes
     <link href="//fonts.gstatic.com/s/montserrat/v12/CdKWaRAal2Bxq9mORLKRRRampu5_7CjHW5spxoeN3Vs.woff2" rel="preload" as="font" crossorigin="crossorigin" type="font/woff2">
     <link href="//fonts.gstatic.com/s/montserrat/v12/IVeH6A3MiFyaSEiudUMXEweOulFbQKHxPa89BaxZzA0.woff2" rel="preload" as="font" crossorigin="crossorigin" type="font/woff2">
     <link href="//fonts.gstatic.com/s/montserrat/v12/zhcz-_WihjSQC0oHJ9TCYAzyDMXhdD8sAj6OAJTFsBI.woff2" rel="preload" as="font" crossorigin="crossorigin" type="font/woff2">
     {!! $page->metaTags() !!}
-    {{--  <script>window.lazySizesConfig = window.lazySizesConfig || {};</script>  --}}
-    {{--  <script src="{{ asset('assets/js/lazysizes.min.js') }}" async></script>  --}}
+    <script>{!! inline('/assets/js/lazysizes-config.js') !!}</script>
+    <script src="{{ asset('assets/js/lazysizes.js') }}" async></script>
     <script src="{{ asset('assets/js/main.js') }}" async></script>
 </head>
 <body class="h-full font-sans {{ r($page->isHomePage(), 'text-white', 'text-black') }} {{ r($page->isHomePage(), 'bg-brand', 'bg-white') }}">
