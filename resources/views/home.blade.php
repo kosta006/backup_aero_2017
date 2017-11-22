@@ -15,7 +15,14 @@
         <p class="w-full mt-4 text-grey text-lg font-light">Get the app today. It's free!</p>
     </section>
 
-    <section class="">
-        <img src="{{ url('assets/images/phones.png') }}" alt="" class="block">
+    <section>
+        <picture>
+            <source
+                data-srcset="{{ url('assets/images/phones.png') }}"
+                media="--md">
+            <img
+                data-src="{{ url('assets/images/phones-lg.png') }}"
+                class="lazyload">
+        </picture>
     </section>
 @endsection

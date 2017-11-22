@@ -68,7 +68,7 @@ html {
 
 .lazyloaded {
     opacity: 1;
-    transition: opacity .3s;
+    transition: opacity 1s;
 }
 
 .turbolinks-progress-bar {

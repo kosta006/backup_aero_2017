@@ -31,7 +31,7 @@
                     <span class="js-menu-btn--close hidden w-8">{{ svg('close') }}</span>
                 </button>
 
-                <div class="js-menu-items absolute md:fixed pin-t-100 pin-x md:pin-t-reset md:pin-b hidden md:block w-full p-4 {{ r($page->isHomePage(), 'bg-white', 'bg-black') }} md:bg-black {{ r(! $page->isHomePage(), 'md:shadow-lg') }}">
+                <div class="js-menu-items z-50 absolute md:fixed pin-t-100 pin-x md:pin-t-reset md:pin-b hidden md:block w-full p-4 {{ r($page->isHomePage(), 'bg-white', 'bg-black') }} md:bg-black {{ r(! $page->isHomePage(), 'md:shadow-lg') }}">
                     @include('partials.menu')
                 </div>
             </div>
