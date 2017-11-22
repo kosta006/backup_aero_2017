@@ -12,10 +12,10 @@
         <a href="#" class="inline-flex pl-1 w-1/2">
             <img src="{{ url('assets/images/ios.svg') }}" alt="">
         </a>
-        <p class="w-full mt-2 text-grey font-light">Get the app today. It's free!</p>
+        <p class="w-full mt-4 text-grey text-lg font-light">Get the app today. It's free!</p>
     </section>
 
-    <section class="">
-        <img class="" src="{{ url('assets/images/phones.png') }}" alt="">
+    <section class="p-0">
+        <img src="{{ url('assets/images/phones.png') }}" alt="" class="block">
     </section>
 @endsection

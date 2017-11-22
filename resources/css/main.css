@@ -37,6 +37,10 @@ html {
     @apply .border-b-2 .border-blue;
 }
 
+.content {
+    @apply .font-light .leading-normal;
+}
+
 .content h1,
 .content h2,
 .content h3,
@@ -93,8 +97,12 @@ html {
   * @import "utilities/skew-transforms";
   */
 
-.bg-brand{
+.bg-brand {
     background: linear-gradient(180deg, #2A3BC8, #2A3B81) no-repeat;
+}
+
+.no-focus:focus {
+    outline: none;
 }
 
 .pin-t-100 {
