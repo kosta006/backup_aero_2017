@@ -33,6 +33,7 @@ class TailwindExtractor {
 
 mix
   .js('resources/js/main.js', 'assets/js')
+  .copy('resources/css/fonts.css', 'assets/css/fonts.css')
   .copy('node_modules/lazysizes/lazysizes.min.js', 'assets/js/lazysizes.min.js')
   .postCss(
     'resources/css/main.css',

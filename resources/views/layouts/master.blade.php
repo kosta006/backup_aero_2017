@@ -3,11 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {{--  <link href="//fonts.googleapis.com" rel="dns-prefetch">  --}}
-    {{--  <link href="//fonts.gstatic.com" rel="dns-prefetch">  --}}
+    <link href="//fonts.googleapis.com" rel="dns-prefetch">
+    <link href="//fonts.gstatic.com" rel="dns-prefetch">
     <link href="{{ asset('assets/css/main.css') }}" rel="preload" as="style">
     {{--  <link href="{{ asset('assets/js/lazysizes.min.js') }}" rel="preload" as="script">  --}}
-    {{--  <link href="//fonts.gstatic.com/*.woff2" rel="preload" as="font" crossorigin="crossorigin" type="font/woff2">  --}}
+    <link href="//fonts.gstatic.com/s/montserrat/v12/CdKWaRAal2Bxq9mORLKRRRampu5_7CjHW5spxoeN3Vs.woff2" rel="preload" as="font" crossorigin="crossorigin" type="font/woff2">
+    <link href="//fonts.gstatic.com/s/montserrat/v12/IVeH6A3MiFyaSEiudUMXEweOulFbQKHxPa89BaxZzA0.woff2" rel="preload" as="font" crossorigin="crossorigin" type="font/woff2">
+    <link href="//fonts.gstatic.com/s/montserrat/v12/zhcz-_WihjSQC0oHJ9TCYAzyDMXhdD8sAj6OAJTFsBI.woff2" rel="preload" as="font" crossorigin="crossorigin" type="font/woff2">
     {!! $page->metaTags() !!}
     {{--  <script>window.lazySizesConfig = window.lazySizesConfig || {};</script>  --}}
     {{--  <script src="{{ asset('assets/js/lazysizes.min.js') }}" async></script>  --}}

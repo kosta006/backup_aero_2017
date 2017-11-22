@@ -31,7 +31,7 @@ c::set('meta-tags.default', function(Page $page, Site $site) {
             ],
             'stylesheet' => [
                 ['href' => asset('assets/css/main.css')],
-                ['href' => '//fonts.googleapis.com/css?family=Montserrat:100,300,400']
+                ['href' => asset('assets/css/fonts.css')]
             ],
         ],
         // 'og' => [
