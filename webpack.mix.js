@@ -46,7 +46,7 @@ if (mix.inProduction()) {
   mix.webpackConfig({
     plugins: [
       new purgecss({
-        whitelist: [],
+        whitelist: ['turbolinks-progress-bar'],
         paths: glob.sync([
           path.join(__dirname, 'resources/js/**/*.js'),
           path.join(__dirname, 'resources/js/**/*.vue'),

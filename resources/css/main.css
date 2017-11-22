@@ -71,6 +71,11 @@ html {
     transition: opacity .3s;
 }
 
+.turbolinks-progress-bar {
+    @apply .bg-grey;
+    height: 3px;
+}
+
 .uniform__potty {
     position: absolute;
     left: -9999px;
