@@ -110,6 +110,12 @@ html {
     outline: none;
 }
 
-.pin-t-100 {
-    top: 100%;
+@responsive {
+    .pin-t-reset {
+        top: initial;
+    }
+
+    .pin-t-100 {
+        top: 100%;
+    }
 }
