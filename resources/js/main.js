@@ -6,9 +6,16 @@ window.addEventListener('load', function() {
         const menuButtonOpen = document.querySelector('.js-menu-btn--open')
         const menuButtonClose = document.querySelector('.js-menu-btn--close')
         const menuItems = document.querySelector('.js-menu-items')
+        const menuItemsLinks = document.querySelectorAll('.js-menu-items a')
 
         menuButton.addEventListener('click', function() {
-            return toggleMenu()
+            toggleMenu()
+        })
+
+        menuItemsLinks.forEach(function(link) {
+            link.addEventListener('click', function() {
+                toggleMenu()
+            })
         })
 
         function toggleMenu() {
