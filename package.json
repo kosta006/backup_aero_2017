@@ -9,13 +9,14 @@
     "webpack": "node_modules/laravel-mix/setup/webpack.config.js"
   },
   "dependencies": {
-    "tailwindcss": "^0.2.2"
+    "lazysizes": "^4.0.1",
+    "tailwindcss": "^0.2.2",
+    "turbolinks": "^5.0.3"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.6",
     "glob-all": "^3.1.0",
     "laravel-mix": "^1.5.1",
-    "lazysizes": "^4.0.1",
     "purgecss-webpack-plugin": "^0.11.0"
   }
 }
