@@ -17,12 +17,12 @@
     <script src="{{ asset('assets/js/main.js') }}" async></script>
 </head>
 <body class="h-full font-sans {{ r($page->isHomePage(), 'text-white', 'text-black') }} {{ r($page->isHomePage(), 'bg-brand', 'bg-white') }}">
-    <div class="max-w-md mx-auto px-2 md:px-8">
+    <div class="max-w-md lg:max-w-lg mx-auto px-2 md:px-8">
         <a href="#main" class="clip">skip to content</a>
 
-        <header class="" role="banner">
-            <div class="relative md:static flex flex-wrap justify-between">
-                <a href="<?= $site->url() ?>" class="w-48 py-8 pl-5 {{ r($page->isHomePage(), 'text-white', 'text-black') }} no-underline" title="<?= $site->title()->html() ?>">
+        <header role="banner">
+            <div class="relative md:static flex flex-wrap md:flex-col justify-between md:items-center">
+                <a href="<?= $site->url() ?>" class="w-48 py-8 pl-5 md:py-16 md:pl-0 {{ r($page->isHomePage(), 'text-white', 'text-black') }} no-underline" title="<?= $site->title()->html() ?>">
                     {{ svg('logo') }}
                 </a>
 
