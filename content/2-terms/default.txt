@@ -4,7 +4,7 @@ Title: Terms
 
 Text:
 
-**Aeroplate terms**
+### Aeroplate terms
 
 You must be at least 13 years old to use the service.
 
@@ -34,7 +34,7 @@ You must not attempt to restrict another user from using or enjoying the service
 
 Violation of these terms of use will result in termination of your aeroplate account. You understand and agree that aeroplate cannot and will not be responsible for the content posted on the service and you use the service at your own risk. If you violate the letter or spirit of these terms of use, or otherwise create risk or possible legal exposure for aeroplate, we can stop providing this service to you.
 
-**Aeroplate conditions**
+### Aeroplate conditions
 
 We reserve the right to modify or terminate the service or your access to the service for any reason, without notice, at any time, and without liability to you. You can deactivate your aeroplate account by requesting a removal of account via email - checkin@aeroplate.com.au. If we terminate your access to the service or you request termination of your account, your photos, and all other data will no longer be accessible through your account, but those materials and data will persist and appear within the service.
 
@@ -52,7 +52,7 @@ You agree that you are responsible for all data charges you incur through use of
 
 We prohibit crawling, scraping, caching or otherwise accessing any content on the service via automated means, including but not limited to, user profiles and photos (except as may be the result of standard search engine protocols or technologies used by a search engine with aeroplate’s express consent).
 
-**Rights**
+### Rights
 
 Aeroplate does not claim ownership of any content that you post on or through the service. Instead, you hereby grant to aeroplate a non-exclusive, fully paid and royalty-free, transferable, sub-licensable, worldwide license to use the content that you post on or through the service.
 
@@ -67,11 +67,11 @@ You agree that aeroplate is not responsible for, and does not endorse, content p
 
 Any content will be non-confidential and non-proprietary and we will not be liable for any use or disclosure of content. You acknowledge and agree that your relationship with aeroplate is not a confidential, fiduciary, or other type of special relationship, and that your decision to submit any content does not place aeroplate in a position that is any different from the position held by members of the general public, including with regard to your content. None of your content will be subject to any obligation of confidence on the part of aeroplate, and aeroplate will not be liable for any use or disclosure of any content you provide.
 
-**Reporting copyright and other IP violations**
+### Reporting copyright and other IP violations
 
 Please treat other people and their IP with respect.
 
-**Disclaimer of warranties**
+### Disclaimer of warranties
 
 The service, including, without limitation, aeroplate content, is provided on an “as is”, “as available” and “with all faults” basis. To the fullest extent permissible by law, neither aeroplate nor its parent company nor any of their employees, managers, officers or agents (collectively, the “aeroplate parties”) make any representations or warranties or endorsements of any kind whatsoever, express or implied, as to: (a) the service; (b) the aeroplate content; (c) user content; or (d) security associated with the transmission of information to aeroplate or via the service. In addition, the aeroplate parties hereby disclaim all warranties, express or implied, including, but not limited to, the warranties of merchantability, fitness for a particular purpose, non-infringement, title, custom, trade, quiet enjoyment, system integration and freedom from computer virus.
 
