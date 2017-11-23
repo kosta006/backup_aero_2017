@@ -22,7 +22,7 @@
                 media="--md">
             <img
                 data-src="{{ url('assets/images/phones-lg.png') }}"
-                class="lazyload">
+                class="lazyload block">
         </picture>
     </section>
 @endsection
