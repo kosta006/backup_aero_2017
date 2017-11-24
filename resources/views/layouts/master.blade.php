@@ -17,7 +17,7 @@
     <script src="{{ asset('assets/js/main.js') }}" async></script>
 </head>
 <body class="h-full font-sans {{ r($page->isHomePage(), 'text-white', 'text-black') }} {{ r($page->isHomePage(), 'bg-brand', 'bg-white') }}">
-    <div class="max-w-md lg:max-w-lg mx-auto px-2 md:px-8">
+    <div class="w-full {{ r($page->isHomePage(), 'lg:max-w-2xl', 'md:max-w-lg') }} mx-auto px-2 md:px-8">
         <a href="#main" class="clip">skip to content</a>
 
         <header role="banner">
@@ -31,7 +31,7 @@
                     <span class="js-menu-btn--close hidden w-8">{{ svg('close') }}</span>
                 </button>
 
-                <div class="js-menu-items z-50 absolute md:fixed pin-t-100 pin-x md:pin-t-reset md:pin-b hidden md:block w-full p-4 {{ r($page->isHomePage(), 'bg-white', 'bg-black') }} md:bg-black {{ r(! $page->isHomePage(), 'md:shadow-lg') }}">
+                <div class="js-menu-items z-50 absolute md:fixed pin-t-100 pin-x md:pin-t-reset md:pin-b hidden md:block w-full p-4 md:px-0 {{ r($page->isHomePage(), 'bg-white', 'bg-black') }} md:bg-black {{ r(! $page->isHomePage(), 'md:shadow-lg') }}">
                     @include('partials.menu')
                 </div>
             </div>
