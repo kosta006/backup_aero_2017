@@ -20,14 +20,14 @@ c::set('meta-tags.default', function(Page $page, Site $site) {
         'link' => [
             'canonical' => $page->url(),
             'icon' => [
-                // ['href' => url('assets/images/icons/favicon-16.png'), 'sizes' => '16x16', 'type' =>'image/png'],
-                // ['href' => url('assets/images/icons/favicon-32.png'), 'sizes' => '32x32', 'type' =>'image/png'],
-                // ['href' => url('assets/images/icons/favicon-96.png'), 'sizes' => '96x96', 'type' =>'image/png']
+                ['href' => url('assets/images/icons/favicon-16.png'), 'sizes' => '16x16', 'type' =>'image/png'],
+                ['href' => url('assets/images/icons/favicon-32.png'), 'sizes' => '32x32', 'type' =>'image/png'],
+                ['href' => url('assets/images/icons/favicon-96.png'), 'sizes' => '96x96', 'type' =>'image/png']
             ],
             'apple-touch-icon' => [
-                // ['href' => url('assets/images/icons/apple-touch-icon-152.png'), 'sizes' => '152x152', 'type' =>'image/png'],
-                // ['href' => url('assets/images/icons/apple-touch-icon-167.png'), 'sizes' => '167x167', 'type' =>'image/png'],
-                // ['href' => url('assets/images/icons/apple-touch-icon-180.png'), 'sizes' => '180x180', 'type' =>'image/png'],
+                ['href' => url('assets/images/icons/apple-touch-icon-152.png'), 'sizes' => '152x152', 'type' =>'image/png'],
+                ['href' => url('assets/images/icons/apple-touch-icon-167.png'), 'sizes' => '167x167', 'type' =>'image/png'],
+                ['href' => url('assets/images/icons/apple-touch-icon-180.png'), 'sizes' => '180x180', 'type' =>'image/png'],
             ],
             'stylesheet' => [
                 ['href' => asset('assets/css/main.css')],
