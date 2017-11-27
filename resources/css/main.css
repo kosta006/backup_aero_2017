@@ -69,16 +69,6 @@ html {
     clip: rect(1px 1px 1px 1px);
 }
 
-.lazyload,
-.lazyloading {
-    opacity: 0;
-}
-
-.lazyloaded {
-    opacity: 1;
-    transition: opacity 1s;
-}
-
 .turbolinks-progress-bar {
     @apply .bg-grey;
     height: 3px;
