@@ -17,14 +17,7 @@ options:
 
 
 # Subpages options
-pages:
-  add:          true          # Show/hide the add button
-  hide:         false         # Hide subpages
-  limit:        20            # Paginate displayed subpages
-  max:          null          # Maximum number of subpages
-  num:          null          # Numbering mode of visible subpages: default, zero and date
-  sort:         null          # Sort subpages by field
-  template:     default       # Restrict templates
+pages:          false
 
 
 # Files options
