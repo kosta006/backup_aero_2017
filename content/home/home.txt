@@ -1,1 +1,44 @@
 Title: Home
+
+----
+
+Headlineone: Have your say on
+
+----
+
+Headlinetwo: airline food
+
+----
+
+Intro:
+
+Aeroplate is a stand alone review platform specifically built to review food while flying anywhere in the world.
+Information gathered from Aeroplate is used to create a better eating experience for all.
+
+----
+
+Buttontext: find out more
+
+----
+
+Buttonlink: https://aeroplate.global
+
+----
+
+Storemessage: Get the app today. It's free!
+
+----
+
+Androidbuttonlink: https://aeroplate.global
+
+----
+
+Androidbuttonalt: Go to the Play Store for Android
+
+----
+
+Iosbuttonlink: https://aeroplate.global
+
+----
+
+Iosbuttonalt: Go to the App Store for iOS
