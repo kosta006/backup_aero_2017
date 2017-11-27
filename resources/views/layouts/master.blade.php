@@ -17,21 +17,21 @@
     <script src="{{ asset('assets/js/main.js') }}" async></script>
 </head>
 <body class="h-full font-sans {{ r($page->isHomePage(), 'text-white', 'text-black') }} {{ r($page->isHomePage(), 'bg-brand', 'bg-white') }}">
-    <div class="w-full {{ r($page->isHomePage(), 'lg:max-w-2xl', 'md:max-w-lg') }} mx-auto px-2 md:px-8">
+    <div class="flex flex-col w-full min-h-screen {{ r($page->isHomePage(), 'lg:max-w-2xl', 'md:max-w-lg') }} mx-auto px-2 md:px-8">
         <a href="#main" class="clip">skip to content</a>
 
         <header role="banner">
             <div class="relative md:static flex flex-wrap md:flex-col justify-between md:items-center">
-                <a href="<?= $site->url() ?>" class="w-48 py-8 pl-5 md:py-16 md:pl-0 {{ r($page->isHomePage(), 'text-white', 'text-black') }} no-underline" title="<?= $site->title()->html() ?>">
+                <a href="<?= $site->url() ?>" class="w-40 py-6 pl-5 md:py-12 md:pl-0 {{ r($page->isHomePage(), 'text-white', 'text-black') }} no-underline" title="<?= $site->title()->html() ?>">
                     {{ svg('logo') }}
                 </a>
 
-                <button class="js-menu-btn md:hidden flex items-center px-8 {{ r($page->isHomePage(), 'text-white', 'text-black') }} no-focus" data-text="{{ r($page->isHomePage(), 'text-white', 'text-black') }}" data-active-text="{{ r($page->isHomePage(), 'text-blue', 'text-white') }}" data-active-background="{{ r($page->isHomePage(), 'bg-white', 'bg-black') }}">
-                    <span class="js-menu-btn--open w-8">{{ svg('menu') }}</span>
-                    <span class="js-menu-btn--close hidden w-8">{{ svg('close') }}</span>
+                <button class="js-menu-btn md:hidden flex items-center px-6 {{ r($page->isHomePage(), 'text-white', 'text-black') }} no-focus" data-text="{{ r($page->isHomePage(), 'text-white', 'text-black') }}" data-active-text="{{ r($page->isHomePage(), 'text-blue', 'text-white') }}" data-active-background="{{ r($page->isHomePage(), 'bg-white', 'bg-black') }}">
+                    <span class="js-menu-btn--open w-6">{{ svg('menu') }}</span>
+                    <span class="js-menu-btn--close hidden w-6">{{ svg('close') }}</span>
                 </button>
 
-                <div class="js-menu-items z-50 absolute md:fixed pin-t-100 pin-x md:pin-t-reset md:pin-b hidden md:block w-full p-4 md:px-0 {{ r($page->isHomePage(), 'bg-white', 'bg-black') }} md:bg-black {{ r(! $page->isHomePage(), 'md:shadow-lg') }}">
+                <div class="js-menu-items z-50 absolute md:fixed pin-t-100 pin-x md:pin-t-reset md:pin-b hidden md:block w-full p-4 md:p-0 {{ r($page->isHomePage(), 'bg-white', 'bg-black') }} md:bg-black {{ r(! $page->isHomePage(), 'md:shadow-lg') }}">
                     @include('partials.menu')
                 </div>
             </div>
