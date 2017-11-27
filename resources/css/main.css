@@ -69,11 +69,6 @@ html {
     clip: rect(1px 1px 1px 1px);
 }
 
-.turbolinks-progress-bar {
-    @apply .bg-grey;
-    height: 3px;
-}
-
 .uniform__potty {
     position: absolute;
     left: -9999px;
