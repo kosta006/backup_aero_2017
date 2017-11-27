@@ -18,13 +18,6 @@ options:
 
 # Subpages options
 pages:          false
-  # add:          false         # Show/hide the add button
-  # hide:         true          # Hide subpages
-  # limit:        20            # Paginate displayed subpages
-  # max:          null          # Maximum number of subpages
-  # num:          null          # Numbering mode of visible subpages: default, zero and date
-  # sort:         null          # Sort subpages by field
-  # template:     default       # Restrict templates
 
 
 # Files options
@@ -51,6 +44,20 @@ fields:
       pt_BR:    Título
     type:       title
 
+  _headline:
+    label:
+      en:       Headline
+      pt_BR:    Chamada
+    type:       headline
+
+  headlineOne:
+    type:       text
+    width:      1/2
+
+  headlineTwo:
+    type:       text
+    width:      1/2
+
   intro:
     label:
       en:       Intro
@@ -58,8 +65,56 @@ fields:
     type:       textarea
     buttons:    false
 
-  text:
+  buttonLink:
     label:
-      en:       Texto
-      pt_BR:    Conteúdo
-    type:       textarea
+      en:       Button Link
+      pt_BR:    Link do Botão
+    type:       url
+    width:      1/2
+
+  buttonText:
+    label:
+      en:       Button Text
+      pt_BR:    Texto do Botão
+    type:       text
+    width:      1/2
+
+  _store:
+    label:
+      en:       App Links
+      pt_BR:    Links dos Aplicativos
+    type:       headline
+
+  storeMessage:
+    label:
+      en:       Call to Action Message
+      pt_BR:    Mensagem de Chamada para Ação
+    type:       text
+
+  androidButtonLink:
+    label:
+      en:       Google Play Button Link
+      pt_BR:    Link na Google Play
+    type:       url
+    width:      1/2
+
+  androidButtonAlt:
+    label:
+      en:       Button Description
+      pt_BR:    Descrição do Botão
+    type:       text
+    width:      1/2
+
+  iosButtonLink:
+    label:
+      en:       App Store Button Link
+      pt_BR:    Link na App Store
+    type:       url
+    width:      1/2
+
+  iosButtonAlt:
+    label:
+      en:       Button Description
+      pt_BR:    Descrição do Botão
+    type:       text
+    width:      1/2
