@@ -10,18 +10,18 @@ Headlinetwo: airline food
 
 ----
 
-Intro:
+Intro: 
 
 Aeroplate is a stand alone review platform specifically built to review food while flying anywhere in the world.
-Information gathered from Aeroplate is used to create a better eating experience for all.
+Information gathered from Aeroplate is used to create a better eating experience for all. Download the App on your preferred device below, or read our story here.
 
 ----
 
-Buttontext: find out more
+Buttontext: Our Story
 
 ----
 
-Buttonlink: https://aeroplate.global
+Buttonlink: https://aeroplate.pedroborg.es/story
 
 ----
 

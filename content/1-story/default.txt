@@ -2,10 +2,19 @@ Title: Story
 
 ----
 
-Text:
+Text: 
 
-Duis a velit dui. Suspendisse blandit libero et dolor efficitur viverra. Sed finibus est lacus, a lobortis libero mattis in. Praesent ullamcorper, tellus eu bibendum consectetur, nisi dui porta ligula, in imperdiet augue leo non nisl. Integer egestas tortor id porttitor sagittis. Cras ut tellus ex. Donec mattis mauris volutpat consectetur elementum. Etiam quis rutrum risus. In maximus non odio sed hendrerit.
+If you fly often, or at all really, you would probably feel exactly like we do when it comes to eating in the air. We love it, we hate it, we are just a bit all over the place about it. It is fair to say that opening the lid of your airline meal is like opening Pandora’s box.
 
-Nulla vel venenatis urna. Vivamus hendrerit aliquet dolor, ut scelerisque nisl rutrum sed. Duis nec gravida libero, eu consequat lacus. Praesent facilisis ultricies erat, quis vulputate massa tempor eu. Sed nisl ipsum, euismod lacinia magna nec, ornare facilisis metus. Vivamus in iaculis diam. Etiam vitae congue libero. Maecenas sit amet ex libero. Phasellus sed posuere tortor. In vel luctus nunc. Nunc venenatis volutpat quam, nec malesuada est feugiat vel. Mauris imperdiet porttitor ante, at fringilla sapien auctor nec. Nullam ullamcorper nisi ut lorem bibendum venenatis. Donec semper finibus ante eget iaculis. Donec mollis elit in sagittis congue. In est quam, pulvinar pellentesque rhoncus nec, rhoncus ut erat.
+Food is always a starting point to good conversation, but when it comes to Airline food, it is all up in the air. That’s why we created Aeroplate. We needed somewhere we can discuss our food, with airline foodies everywhere.  
 
-Sed id turpis venenatis, molestie enim ut, rhoncus augue. Integer auctor velit ut eleifend tristique. Maecenas felis ante, scelerisque a blandit ut, consequat nec purus. Nam iaculis maximus felis ut elementum. Morbi cursus lectus id turpis dictum, nec interdum risus condimentum. Praesent luctus, metus ut laoreet elementum, tellus arcu congue diam, id viverra justo nibh eu massa. Donec condimentum dui ac felis mollis ullamcorper. Maecenas efficitur erat vitae massa eleifend, nec volutpat leo sollicitudin.
+Whose we? 
+First there’s Frank, he’s been flying across Australia and the world far too often for far too long. He’s had many a meal in the sky, and he’s got a lot to say about all of it. Then there’s Steve and Kais, two digital designers working on top of a mountain in the middle of a gorgeous rain forest… In common, we have a love for food, data, and the digital world.
+
+Together we’ve embarked on a mission to make airline food the best it can be. Aeroplate provides a platform for anyone to have their say on their airline meal through photo, emoji, and a whole heap of awesomeness.
+
+While we aim to make Aeroplate a fun airline food review platform, we take the data it produces very seriously. The Aeroplate team is in contact with airlines the world over. We make sure your voice reaches the right people so that it can have the right effect.
+
+Whether you have a snack, sandwich, or a full meal, let the world know what you think of it with Aeroplate. Download our app and start having fun with your next in flight meal.
+
+Welcome onboard our Aeroplate.
